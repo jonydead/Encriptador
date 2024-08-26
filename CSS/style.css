@@ -1,0 +1,720 @@
+body {
+
+    position: relative;
+    width: 1440px;
+    height: auto;
+    background: #F3F5FC;
+
+    font-family: Montserrat, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* Logo */
+
+/* Auto layout */
+
+.logo {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+
+    position: absolute;
+    width: 120px;
+    height: 48px;
+    left: 40px;
+    top: 40px;
+
+}
+
+
+/* Frame 5 */
+
+/* Auto layout */
+
+.frame_5{
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+
+    position: absolute;
+    width: 336px;
+    height: 122px;
+    left: 1032px;
+    top: 619px;
+
+}
+
+.frame_5 .text_1{
+
+    /* Ningún mensaje fue encontrado */
+    
+    width: 336px;
+    height: 38px;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    /* or 29px */
+
+    text-align: center;
+
+    /* Gray/gray-500 */
+
+    color: #343A40;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+
+.frame_5 .text_2{
+
+    /* Ingresa el texto que desees encriptar o desencriptar. */
+
+
+    width: 336px;
+    height: 48px;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 24px */
+
+    text-align: center;
+
+    /* Gray/gray-400 */
+
+    color: #495057;
+    margin-top: 1vw;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+
+
+/* Muñeco */
+
+.muneco{
+
+    position: absolute;
+    width: 336px;
+    height: 304px;
+    left: 1032px;
+    top: 283px;
+
+}
+
+
+ /* Frame 1 */
+.frame_1{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+
+    position: absolute;
+    width: 229px;
+    height: 18px;
+    left: 240px;
+    margin-top: 50%;
+
+}
+
+.frame_1 .bi:exclamation-circle-fill {
+
+    width: 16px;
+    height: 16px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.frame_1 .text_1 {
+
+    /* Solo letras minúsculas y sin acentos */
+
+
+    width: 205px;
+    height: 18px;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    /* identical to box height, or 18px */
+
+
+    /* Gray/gray-400 */
+
+    color: #495057;
+
+    opacity: 0.8;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+
+/* Frame 3 */
+
+.frame_3{
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+    position: absolute;
+    width: 680px;
+    height: 67px;
+    left: 240px;
+    margin-top: 54%;
+
+}
+
+ /* Button */
+.btn-1{
+
+    /* Auto layout 
+
+    display: flex;*/
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+    border: none;
+
+    width: 328px;
+    height: 67px;
+
+    /* Dark blue/dark-blue-300 */
+
+    background: #0A3871;
+    border-radius: 24px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+    /* Button */
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    /* White */
+
+    color: #FFFFFF;
+
+}
+
+.btn-2{
+
+    /* Auto layout 
+
+    box-sizing: border-box;
+
+    /* Auto layout 
+
+    display: flex;*/
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+
+    width: 328px;
+    height: 67px;
+
+    /* Light gray */
+
+    background: #F3F5FC;
+    /* Dark blue/dark-blue-300 */
+
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    /* Dark blue/dark-blue-300 */
+
+    color: #0A3871;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+
+}
+
+.campo{
+
+    /* Ingrese el texto aqui */
+
+
+    position: absolute;
+    width: 682px;
+    height: 500px;
+    left: 240px;
+    top: 168px;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    background-color: #F3F5FC;
+    border: none;
+    
+    /* identical to box height, or 48px */
+
+
+    /* Dark blue/dark-blue-300 */
+
+    color: #0A3871;
+
+    /*resize: none;*/
+
+}
+
+
+
+.rectangle {
+    position: absolute;
+    width: 400px;
+    height: 800px;
+    left: 1000px;
+    top: 40px;
+
+    /* White */
+
+    background: #FFFFFF;
+    /* shadow */
+
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+}
+
+.rectangle1 {
+    position: absolute;
+    width: 400px;
+    height: 800px;
+    left: 1000px;
+    top: 40px;
+    display: none;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    /* White */
+
+    background: #FFFFFF;
+    /* shadow */
+
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+}
+
+
+.btn-3{
+
+    /* Auto layout 
+
+    box-sizing: border-box;
+
+    /* Auto layout 
+
+    display: flex;*/
+    padding: 24px;
+    width: 328px;
+    height: 67px;
+    
+    margin-top: 10px;
+
+    /* Light gray */
+
+    background: #FFFFFF;
+    /* Dark blue/dark-blue-300 */
+
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    
+}
+
+.encriptado{
+
+    /* Ingrese el texto aqui */
+    margin: 15px auto;
+    width: 95%;
+    height: 84%;
+    
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 150%;
+    background-color: #FFFFFF;
+    border: none;
+    
+    /* identical to box height, or 48px */
+
+
+    /* Dark blue/dark-blue-300 */
+
+    color: #0A3871;
+
+    /*resize: none;*/
+
+}
+
+
+@media screen and (max-width:768px) {
+    body {
+
+        position: relative;
+        width: 768px;
+        height: 1174px;
+        background: #F3F5FC;
+        font-family: Montserrat, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+
+    .campo{
+        display: block;
+        position: absolute;
+        width: 688px;
+        height: 610px;
+        left: 40px;
+        top: 200px;
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 150%;
+        background-color: #F3F5FC;
+        border: none;
+        color: #0A3871;
+    }
+
+    .rectangle{
+        display: none;
+    }
+
+    .rectangle1{
+
+        display: none;
+        flex-direction: column;
+        align-items: flex-start;
+        border-radius: 32px;
+        padding: 32px;
+        gap: 32px;
+        background: #FFFFFF;
+
+        position: absolute;
+        width: 80%;
+        height: 343px;
+        left: 40px;
+        top: 1001px;
+        box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+
+    }
+
+    .encriptado{
+
+        /* Ingrese el texto aqui */
+        margin: 15px auto;
+        width: 95%;
+        height: 73%;
+    
+    }
+    
+
+    .btn-3{
+        padding: 24px;
+        width: 328px;
+        height: 67px;
+        
+        margin-top: 10px;
+
+    
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        
+    }
+
+    .muneco{
+        display: none;
+    }
+
+    .frame_5{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        border-radius: 32px;
+        padding: 32px;
+        gap: 32px;
+        background: #FFFFFF;
+
+        position: absolute;
+        width: auto;
+        height: 120px;
+        left: 40px;
+        top: 1001px;
+        box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    }
+
+    .frame_5 .text_1{
+
+        /* Ningún mensaje fue encontrado */
+        
+        width: 624px;
+        height: 29px;
+    
+    }
+    
+    .frame_5 .text_2{
+    
+        /* Ingresa el texto que desees encriptar o desencriptar. */
+    
+        width: 624px;
+        height: 24px;
+    
+    }
+    
+
+    .frame_1{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        gap: 8px;
+
+        position: absolute;
+        width: 229px;
+        height: 18px;
+        left: 40px;
+        margin-top: 836px;
+    }
+
+    .frame_3{
+        /* Auto layout */
+    
+        display: flex;
+        padding: 0px;
+        gap: 24px;
+    
+        position: absolute;
+        width: 680px;
+        height: 67px;
+        left: 40px;
+        margin-top: 870px;
+    
+    }
+
+    .logo {
+    
+        position: absolute;
+        width: 110px;
+        height: 50px;
+        left: 40px;
+        top: 73.42px;
+    
+    }
+}
+
+@media screen and (max-width:375px) {
+
+    body {
+
+        position: relative;
+        width: 375px;
+        height: 933px;
+    }
+
+    .logo {
+    
+        position: absolute;
+        width: 100px;
+        height: 40px;
+        left: -15px;
+        top: 15px;
+    
+    }
+
+    .campo{
+        position: absolute;
+        width: 343px;
+        height: 250px;
+        left: 16px;
+        top: 152px;
+    }
+
+    .frame_1{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        gap: 8px;
+
+        position: absolute;
+        width: 229px;
+        height: 18px;
+        left: 16px;
+        margin-top: 451px;
+    }
+
+    .frame_3{
+        /* Auto layout */
+    
+        display: inline-block;
+        padding: 0px;
+    
+        position: absolute;
+        width: 343px;
+        height: 158px;
+        left: 16px;
+        margin-top: 485px;
+    
+    }
+
+    .btn-2{
+        margin-top: 24px;
+    }
+
+    .frame_5{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        border-radius: 32px;
+        padding: 32px;
+        gap: 32px;
+        background: #FFFFFF;
+
+        position: absolute;
+        width: auto;
+        height: 186px;
+        left: 24px;
+        top: 707px;
+        box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    }
+
+    .frame_5 .text_1{
+
+        /* Ningún mensaje fue encontrado */
+        
+        width: 263px;
+        height: 58px;
+    
+    }
+    
+    .frame_5 .text_2{
+    
+        /* Ingresa el texto que desees encriptar o desencriptar. */
+    
+        width: 263px;
+        height: 48px;
+    
+    }
+
+    .rectangle1{
+
+        display: none;
+        flex-direction: column;
+        align-items: flex-start;
+        border-radius: 32px;
+        padding: 32px;
+        gap: 32px;
+        background: #FFFFFF;
+
+        position: absolute;
+        width: 70%;
+        height: 432px;
+        left: 24px;
+        top: 707px;
+        box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+
+    }
+
+    .encriptado{
+
+        margin: 15px auto;
+        width: 90%;
+        height: 73%;
+    
+    }
+
+    .btn-3{
+        padding: 24px;
+        width: 279px;
+        height: 67px;
+    
+    
+        flex: none;
+        order: 0;
+        flex-grow: 1;
+        
+    }
+
+}

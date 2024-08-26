@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta name="viewport" content="width=device-width">
+    <meta charset="UTF-8">
+    <title>Encriptador de Texto - Oracle + Alura Latam</title>
+
+    <!-- referencia archivos de estilos .css -->
+    <link rel="stylesheet" href="CSS/reset.css">
+    <link rel="stylesheet" href="CSS/style.css">
+
+</head>
+<body>
+
+    <img src="Imagenes/Logo.png" alt="Logo Alura" class="logo">
+
+    <!--<img src="../Imagenes/Frame_5.png" alt="Imagen mensaje no encontrado" class="frame_5">
+    -->
+    <div class="rectangle" id="rectangle"></div>
+    <div class="rectangle1" id="rectangle1">
+        <textarea name="encriptado" id="encriptado" class="encriptado" readonly></textarea>
+        <button class="btn-3" onclick="copiarTexto()">Copiar</button>
+    </div>
+    
+
+    <div class="frame_5" id="frame5">
+        <p class="text_1">Ningún mensaje fue encontrado</p>
+        <p class="text_2">Ingresa el texto que desees encriptar o desencriptar.</p>
+    </div>
+
+    
+
+    <img src="Imagenes/Muñeco.png" alt="imagen muñeco" class="muneco" id="muneco">
+
+    <div class="frame_1">
+        <img src="Imagenes/Vector.png" alt="" class="bi">
+        <p class="text_1">Solo letras minúsculas y sin acentos</p>
+    </div>
+
+    <div class="frame_3">
+
+        <button class="btn-1" onclick="encriptar(); esconderLayout();">Encriptar</button>
+
+        <button class="btn-2" onclick="desencriptar(); esconderLayout();">Desencriptar</button>
+    
+    </div>
+
+    <!--<input type="text" name="codigo_escrito" id="cos_escrito" class="campo" placeholder="Ingrese el texto aqui">-->
+    <textarea name="codigo_escrito" id="codigo_escrito" cols="20" rows="10" class="campo" placeholder="Ingrese el texto aqui" autofocus></textarea>
+    
+   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.0/dist/sweetalert2.all.min.js"></script>
+    <script src="JS/script.js"></script>
+    
+</body>
+</html>
